@@ -13,7 +13,7 @@ region_dataFrame = pd.read_csv('datasets/noc_regions.csv')
 dataFrame = DataPreprocessor.preprocess(dataFrame,region_dataFrame)
 
 st.sidebar.header("Interactive Summer Olympic Analysis")
-st.sidebar.image('https://th.bing.com/th/id/OIP.XJtoYDx28vxQkeBbuWySvwAAAA?w=129&h=207&c=7&r=0&o=5&dpr=1.3&pid=1.7')
+st.sidebar.image('https://www.pngarts.com/files/4/Olympic-Symbol-PNG-Transparent-Image.png')
 user_option = st.sidebar.radio(
     'Select an Option',
     ("Overview",'Overall Analysis','Nation-wise Analysis','Athlete-wise Analysis','Medal Tally')
